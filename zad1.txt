@@ -1,0 +1,7 @@
+zad1
+1.1 - cat plik.txt | grep test | wc -l
+1.2 - rmdir *temp
+1.3 - find *.txt > plik.txt; cat plik.txt
+1.4 - cp plik.txt plik_kopia.txt; cat plik_kopia.txt
+1.5 - ls /etc > etc.txt; ls /etc | grep -l *.conf
+1.6 - ps aux | grep bash > bash.txt; cat bash.txt
