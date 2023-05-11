@@ -1,0 +1,5 @@
+zad3
+3.1 - sed 's/kot/pies/g' plik.txt > plik_nowy.txt
+3.2 - sed 's/^#*//' plik.txt > plik_nowy.txt
+3.3 - touch email.txt
+sed -e 's/@[a-zA-Z0-9\.]*/@onet.pl/' email.txt
