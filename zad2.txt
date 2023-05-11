@@ -1,0 +1,6 @@
+zad2
+2.1 - chmod a+rw-x plik.txt; chmod o-w plik.txt
+chmod 664 plik.txt
+2.2 - chmod u+rwx plik.txt; chmod g+rx-w plik.txt; chmod o+r-wx plik.txt
+chmod 754 plik.txt
+2.3 - chmod go-w test
