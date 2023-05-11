@@ -1,0 +1,6 @@
+zad4
+4.1 - awk '{print $2}' email.txt
+4.2 - awk '$3>50 {print $3}' dane.txt
+4.3 - awk 'BEGIN {zm=0} {zm=zm+$1} END {print zm}' dane.txt
+4.4 - awk 'BEGIN {zm=0} {zm=zm+1} END {print zm}' dane.txt
+4.5 - awk '{print $0, $1 % 4}' dane.txt > nowe.txt
