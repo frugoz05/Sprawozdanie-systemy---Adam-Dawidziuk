@@ -1,0 +1,53 @@
+zad5
+5.1
+#!/bin/bash
+echo "Podaj imie"
+read imie
+echo "Podaj wiek"
+read wiek
+echo "Twoje imie to" $imie "a twoj wiek to" $wiek
+
+5.2
+#!/bin/bash
+if [ -e $1 ]
+then
+	echo "Plik istnieje"
+else
+	echo "Plik nie istnieje"
+fi
+
+5.3
+#!/bin/bash
+zm=""
+while :
+do
+	read zm
+	if [ $zm == "quit" ]
+	then
+		break
+	fi
+	echo $zm
+done
+
+5.4
+#!/bin/bash
+licz=0
+liczba=1
+while :
+do
+	read liczba
+	if [ $liczba == 0 ]
+	then
+	break
+	fi
+	licz=$[$licz+$liczba]
+ done 
+echo $licz
+
+5.5
+#!/bin/bash
+ls -l | awk '{ print $8, $6, $5 }' > pliki.txt
+while read plik;
+do
+	echo "Plik:" $plik
+done < pliki.txt
